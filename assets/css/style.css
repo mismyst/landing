@@ -16651,7 +16651,7 @@ h2 div {
 }
 @media (max-width: 1400px) {
   .rts-breadcrumb-area .inner .title {
-    font-size: 94px;
+    font-size: 54px;
   }
 }
 @media (max-width: 1200px) {
@@ -21351,6 +21351,7 @@ main {
 .bg_image-1 {
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 300px;
 }
 
 .portfolio-center-scale-swiper-area .container-full {
@@ -23362,16 +23363,20 @@ main {
 }
 
 .bg-footer-2 {
-  background-image: url(../images/footer/01.jpg);
+  background-image: url(../images/footer/2.png);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  padding: 0px;
+  min-height: 128px;
 }
 
 .copy-right-area-start-two {
   display: flex;
   align-items: center;
-  justify-content: center;
-  border-top: 1px solid #1E1E1E;
-  padding: 30px 0;
+  justify-content: space-between;
+  color: white;
+  padding-top: 40px;
 }
 @media only screen and (max-width: 575px) {
   .copy-right-area-start-two {
@@ -23382,15 +23387,18 @@ main {
 .copy-right-area-start-two p {
   margin-bottom: 0;
   color: #FFF;
-  padding: 0;
+  padding-left: 40px;
   margin: 0;
+  align-items: left;
 }
 .copy-right-area-start-two ul {
   display: flex;
-  align-items: center;
-  gap: 40px;
+  align-items: right;
+  justify-content: right;
+  gap: 15px;
   list-style: none;
   color: #fff;
+  padding-right: 40px;
 }
 @media only screen and (max-width: 575px) {
   .copy-right-area-start-two ul {
