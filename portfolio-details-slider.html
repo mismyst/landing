@@ -18,32 +18,21 @@
 <body class="inner-page project-details">
     
 <style>
-/* Default (light mode) */
-body:not(.dark) .header-one .nav-area .menu-link,
-body:not(.dark) .header-one .nav-area a span.rolling-text {
-    color: #fff !important; /* Dark text for light background */
+        .header-one .logo img {
+    height: 70px;  /* Adjust as needed */
+    width: auto;
+    object-fit: contain;
+    display: block;
 }
-
-/* Dark mode override */
-body.dark .header-one .nav-area .menu-link,
-body.dark .header-one .nav-area a span.rolling-text {
-    color: #fff !important; /* Light text for dark background */
-}
-
-/* Add smooth transition for content changes */
-.content-transition {
-    transition: opacity 0.3s ease-in-out;
-}
-</style>
-
+    </style>
 
     <!-- Scripts style two -->
     <!-- header area two start -->
-    <header class="header-area header-one header--sticky">
+     <header class="header-area header-one header--sticky">
         <div class="header-container-one">
             <div class="header-wrapper">
-                <a href="index.html" class="logo">
-                    <img src="assets/images/logo/01.svg" alt="logo">
+                <a href="index-six.html" class="logo">
+                    <img src="assets/images/neuvalogo.png" alt="logo">
                 </a>
                 <div class="header-right">
 
@@ -67,12 +56,11 @@ body.dark .header-one .nav-area a span.rolling-text {
                                       
 
                                     </li>
-                                    <li class="menu-item menu-item-home"><a class="menu-link" href="portfolio-two.html">Websites</a></li>
                                     
-                                   <li class="menu-item menu-item-home has-children-sub"><a class="menu-link" href="portfolio-details-slider.html" >App Devlopment</a>
+                                   <li class="menu-item menu-item-home has-children-sub"><a class="menu-link" href="portfolio-details-slider.html" >Our Products</a>
 
                                     </li>
-                                     <li class="menu-item menu-item-home has-children-sub"><a class="menu-link" href="showcase-interactive-links.html" >Our Products</a>
+                                     <li class="menu-item menu-item-home has-children-sub"><a class="menu-link" href="showcase-interactive-links.html" >Our Tools</a>
 
                                     </li>
                                 </ul>
@@ -97,7 +85,6 @@ body.dark .header-one .nav-area a span.rolling-text {
             </div>
         </div>
     </header>
-    <!-- header area two end -->
 
     <!-- Scripts style two End -->
 
@@ -359,16 +346,16 @@ body.dark .header-one .nav-area a span.rolling-text {
         // Portfolio content data for each slide
         const portfolioData = [
             {
-                title: "E-commerce Platform <br> Development",
+                title: "NxtSync",
                 category: "Web Development",
                 year: "2024",
                 role: "Full Stack Development",
                 website: "www.ecommerce-demo.com",
-                description: "A comprehensive e-commerce platform built with modern technologies, featuring user-friendly interface, secure payment integration, and advanced inventory management. The platform includes features like real-time chat support, personalized recommendations, and mobile-responsive design to enhance user experience across all devices.",
-                tasksDescription: "Our team handled the complete development lifecycle from initial planning to deployment. We implemented secure authentication, payment gateways, inventory management, and created a scalable architecture.",
-                strategy: "E-commerce Strategy, UX Research",
-                design: "UI/UX Design, Responsive Design",
-                client: "Retail Corporation",
+                description: "NxtSync is a forward-thinking edtech platform focused on bridging the gap between academic theory and real-world industry skills. We collaborated with NxtSync Pvt. Ltd. to bring their vision to life through a modern, responsive website that highlights their mission, offerings, and impact. The site is structured to clearly showcase their industry-relevant courses, internships, and partnerships, with seamless navigation and a professional aesthetic. We also designed a distinctive logo that encapsulates their innovative and career-focused identity.",
+                tasksDescription: "Neuva led the complete digital journey for NxtSync—from crafting a memorable logo that reflects their edtech vision, to designing an intuitive screenflow and UI/UX design that aligned with their educational and career-advancement mission. We carefully structured the information architecture and developed a responsive, accessible, and high-performing website. Our end-to-end involvement ensured the platform not only represents NxtSync’s mission but also delivers a seamless learning experience across device",
+                strategy: "EdTech Platform Strategy, Brand Identity Development, UX Research, Career-Focused Information Flow",
+                design: "Logo Design, UI/UX Design, Information Hierarchy, Responsive Web Design",
+                client: "NxtSync Pvt. Ltd. – Edtech Innovators",
                 accordionContents: [
                     "Comprehensive brand development for the e-commerce platform including logo design, color palette, and brand guidelines. We created a cohesive visual identity that resonates with the target audience and builds trust in the online marketplace.",
                     "User experience and interface design focused on conversion optimization and user journey mapping. We conducted extensive user research and testing to create intuitive navigation and seamless checkout processes.",
@@ -378,16 +365,16 @@ body.dark .header-one .nav-area a span.rolling-text {
                 ]
             },
             {
-                title: "Mobile Banking App <br> Design",
+                title: "Zapp - In-Campus Delivery App",
                 category: "Mobile App Design",
                 year: "2024",
                 role: "UI/UX Design",
                 website: "www.bankingapp-demo.com",
-                description: "Revolutionary mobile banking application designed with security and user experience at its core. Features biometric authentication, intuitive transaction flows, and comprehensive financial management tools. The app includes budgeting features, investment tracking, and AI-powered financial insights.",
-                tasksDescription: "We designed the complete user interface and experience, conducted user research, created prototypes, and worked closely with developers to ensure pixel-perfect implementation.",
-                strategy: "Mobile Strategy, Security UX",
-                design: "Mobile UI/UX, Interaction Design",
-                client: "Financial Institution",
+                description: "ZAPP is a cross-platform in-campus delivery application developed for SRM University students, providing efficient delivery of food, stationery, and printouts. Designed with student needs in mind, the app features a vibrant interface, real-time order tracking, and an optimized user journey. Built using React Native, ZAPP ensures a consistent experience across Android and iOS platforms while maintaining a lightweight and performance-focused build.",
+                tasksDescription: "Our team at Neuva led the entire product lifecycle— Starting with user flow planning and wireframes final deployment. We conducted user flow analysis, crafted a clean, modern UI  that ensured intuitive navigation for students.Our team built the app using React Native, focusing on performance, responsiveness, and seamless user experience. With engaging visuals, location-based delivery logic, and real-time updates, ZAPP was designed to streamline campus logistics while reflecting the youthful energy of its audience.",
+                strategy: "Campus Services Strategy, User Journey Mapping, Mobile-First Architecture",
+                design: "UI/UX Design, Cross-Platform App Design, Student-Centric Interface",
+                client: "SRM University – Internal Campus Delivery Initiative",
                 accordionContents: [
                     "Brand development for the mobile banking app focused on trust, security, and modern financial services. Created a sophisticated brand identity that appeals to both traditional and digital-native users.",
                     "Comprehensive UX/UI design for mobile banking with focus on security, accessibility, and user-friendly financial management. Designed intuitive flows for complex banking operations while maintaining security standards.",
@@ -421,11 +408,11 @@ body.dark .header-one .nav-area a span.rolling-text {
                 year: "2024",
                 role: "Product Design",
                 website: "www.saas-dashboard.com",
-                description: "Sophisticated SaaS dashboard application designed for data visualization and business intelligence. Features real-time analytics, customizable widgets, and advanced reporting capabilities. The platform serves enterprise clients with complex data needs and integration requirements.",
-                tasksDescription: "We designed and developed a comprehensive dashboard solution with focus on data visualization, user experience, and scalability. The project included extensive user research and iterative design process.",
-                strategy: "Product Strategy, Data Architecture",
-                design: "Dashboard Design, Data Visualization",
-                client: "Enterprise Software Company",
+                description: "A comprehensive field service management web application designed to streamline operations between office teams and field technicians. With features like service scheduling, invoicing, parts tracking, and real-time updates, the platform enhances team coordination, improves productivity, and ensures customer satisfaction. Optimized for performance, the FSM system is scalable and secure, supporting businesses in delivering reliable on-site services.",
+                tasksDescription: "Neuva led the full-cycle design and development of the FSM web app—from wireframes and user flow mapping to high-fidelity UI and robust backend implementation. We built modules for service tasks, parts management, estimates, invoicing, and staff assignment. Special attention was given to user roles, permissions, and seamless workflow transitions between departments.We designed and developed a comprehensive dashboard solution with focus on data visualization, user experience, and scalability. The project included extensive user research and iterative design process.",
+                strategy: "Operational Efficiency Strategy, Workflow Automation, B2B SaaS Planning Strategy, Data Architecture",
+                design: "Dashboard UI/UX Design, Admin Dashboard Interface, Web Application Architecture, Data Visualization",
+                client: "Enterprise Smart FSM – Field Service Operations Platform Company",
                 accordionContents: [
                     "Product brand development for SaaS platform including positioning, messaging, and visual identity. Created a professional brand that conveys expertise in data analytics and enterprise software solutions.",
                     "Advanced UX/UI design for complex data dashboard with focus on usability, information hierarchy, and customizable user experiences. Designed intuitive navigation for handling large datasets and multiple user roles.",
