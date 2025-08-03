@@ -15437,14 +15437,14 @@ header.header-four .nav-area .navbar-nav-1 .menu-item .mega-menu-01.sub-menu .si
 }
 
 .index-one svg:nth-child(1) line,
-.index-six svg:nth-child(1) line,
+.index svg:nth-child(1) line,
 .index-four svg:nth-child(1) line,
 .portfolio-seven svg:nth-child(1) line {
   stroke: #000;
 }
 
 .rts-dark .index-one svg:nth-child(1) line,
-.rts-dark .index-six svg:nth-child(1) line,
+.rts-dark .index svg:nth-child(1) line,
 .rts-dark .index-four svg:nth-child(1) line,
 .rts-dark .portfolio-seven svg:nth-child(1) line {
   stroke: #fff;
@@ -28719,21 +28719,21 @@ body.servi-ce-details .rts-footer-two-area {
 .rts-dark .single-service-card-box-1 .icon svg path {
   fill: #fff;
 }
-.rts-dark .index-six .large-image-option-start,
-.rts-dark .index-six .about-area-7-start.rts-section-gapBottom,
-.rts-dark .index-six .working-process-area.rts-section-gapTop,
-.rts-dark .index-six .rts-pricing-area.rts-section-gapTop.position-relative {
+.rts-dark .index .large-image-option-start,
+.rts-dark .index .about-area-7-start.rts-section-gapBottom,
+.rts-dark .index .working-process-area.rts-section-gapTop,
+.rts-dark .index .rts-pricing-area.rts-section-gapTop.position-relative {
   background: #090909;
 }
-.rts-dark .index-six .title-area-inner.large-image .title,
-.rts-dark .index-six .title-area-four-w .title,
-.rts-dark .index-six .single-working-process-three .title {
+.rts-dark .index .title-area-inner.large-image .title,
+.rts-dark .index .title-area-four-w .title,
+.rts-dark .index .single-working-process-three .title {
   color: #fff !important;
 }
-.rts-dark .index-six .title-area-inner.large-image .title span {
+.rts-dark .index .title-area-inner.large-image .title span {
   color: #fff !important;
 }
-.rts-dark .index-six .single-working-process-three .icon {
+.rts-dark .index .single-working-process-three .icon {
   margin-bottom: 25px;
   mix-blend-mode: exclusion;
   background: #fff;
@@ -28742,7 +28742,7 @@ body.servi-ce-details .rts-footer-two-area {
   padding: 12px;
   border-radius: 5px;
 }
-.rts-dark .index-six .single-working-process-three .icon img {
+.rts-dark .index .single-working-process-three .icon img {
   max-width: 40px;
 }
 .rts-dark .index-three .rts-offcanvas-wrapper .container-menu .action-menu .burger .icon-close svg line {
@@ -29162,7 +29162,7 @@ body.servi-ce-details .rts-footer-two-area {
 .rts-light-mood .mySwiper_portfolio-5 .swiper-slide.swiper-slide-active .single-portfolio-style-five .inner-content a .name {
   color: #141414;
 }
-.rts-light-mood .index-six .blog-area-start .learn-more-btn {
+.rts-light-mood .index .blog-area-start .learn-more-btn {
   color: #fff;
 }
 .rts-light-mood .index-one .our-approch-area-style-one.rts-section-gap.bg-dark-1 {

@@ -62,7 +62,7 @@
                                                     <li class="menu-item menu-item-home"><a class="menu-link" href="index.html">Digital Agency</a>
                                                     </li>
 
-                                                    <li class="menu-item"><a class="menu-link" href="index-six.html">Business Agency</a></li>
+                                                    <li class="menu-item"><a class="menu-link" href="index.html">Business Agency</a></li>
                                                     <li class="menu-item"><a class="menu-link" href="index-two.html">Creative Agency</a></li>
                                                     <li class="menu-item"><a class="menu-link" href="index-three.html">Personal Portfolio</a></li>
                                                     <li class="menu-item"><a class="menu-link" href="index-four.html">Design Agency</a></li>
@@ -317,7 +317,7 @@
                                                                 <a href="index-five.html">Creative Portfolio</a>
                                                             </li>
                                                             <li class="menu-item">
-                                                                <a href="index-six.html">Business Agency</a>
+                                                                <a href="index.html">Business Agency</a>
                                                             </li>
                                                         </ul>
                                                     </li>
